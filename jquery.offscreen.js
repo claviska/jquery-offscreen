@@ -1,16 +1,6 @@
 /*
  * jQuery offscreen plugin
  *
- * Filters that detect when an element is partially or completely outside
- * of the viewport.
- *
- *  Usage:
- *
- *      $('#element').is(':off-bottom')
- *
- * The above example returns true if #element's bottom edge is even 1px past
- * the bottom part of the viewport.
- *
  * Copyright Cory LaViska for A Beautiful Site, LLC
  *
  * @license: http://opensource.org/licenses/MIT
