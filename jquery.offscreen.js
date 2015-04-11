@@ -19,6 +19,9 @@
         },
         'off-left': function(el) {
             return $(el).offset().left < $(window).scrollLeft();
+        },
+        'off-screen': function(el) {
+            return $(el).is(':off-top, :off-right, :off-bottom, :off-left');
         }
     });
 })(jQuery);

@@ -8,10 +8,11 @@ menus, tooltips, etc. when they would otherwise appear off the screen.
 
 ## Usage
 
-    $('#element').is(':off-top')
-    $('#element').is(':off-right')
-    $('#element').is(':off-bottom')
-    $('#element').is(':off-left')
+    $('#element').is(':off-top')    // top of the viewport
+    $('#element').is(':off-right')  // right-side of the viewport
+    $('#element').is(':off-bottom') // bottom of the viewport
+    $('#element').is(':off-left')   // left-side of the viewport
+    $('#element').is(':off-screen') // any side of the viewport
 
 Each filter returns `true` if `#element`'s bottom edge is 1px or more past the specified side of the viewport.
 
