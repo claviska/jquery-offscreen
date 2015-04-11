@@ -34,3 +34,9 @@ This example will keep Bootstrap 3 dropdowns from going off the right side of th
         }
 
     });
+
+## License
+
+Copyright Cory LaViska for A Beautiful Site, LLC
+
+License: http://opensource.org/licenses/MIT
