@@ -1,5 +1,5 @@
 {
-  "name": "jQuery Offscreen",
+  "name": "jquery-offscreen",
   "description": "Filters that detect when an element is partially or completely outside of the viewport.",
   "version": "1.0.1",
   "repositories": [
